@@ -8,7 +8,7 @@ import java.util.function.Function;
 * Provides methods to find, retrieve, and remove the vanish state
 * associated with a unique identifier (UUID).
 */
-interface IVanishState {
+interface VanishFunctor {
 
 	/**
 	* Finds the current vanish state associated with the given UUID.
