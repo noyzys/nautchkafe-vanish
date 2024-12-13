@@ -17,7 +17,7 @@ record VanishAudience(Audience audience) {
     * @return a new instance of {@code VanishAudience} associated with the provided player
     */
     public static VanishAudience ofPlayer(final Player player) {
-        return new AudienceAdapter(Audience.audience(player));
+        return new VanishAudience(Audience.audience(player));
     }
 
     /**
